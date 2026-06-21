@@ -22,17 +22,17 @@ class DatabaseSeeder extends Seeder
         $admin = User::factory()->create([
             'name' => 'Tavern Keeper',
             'username' => 'admin',
-            'email' => 'admin@questhive.com',
+            'email' => 'admin@restpoint.com',
             'password' => bcrypt('password'),
             'role' => 'admin',
-            'bio' => 'Owner of the Tavern. Keeping the hive clean.',
+            'bio' => 'Owner of the Tavern. Keeping the tavern clean.',
         ]);
 
         // 2. Create Moderator User
         $moderator = User::factory()->create([
             'name' => 'Tavern Guard',
             'username' => 'moderator',
-            'email' => 'mod@questhive.com',
+            'email' => 'mod@restpoint.com',
             'password' => bcrypt('password'),
             'role' => 'moderator',
             'bio' => 'Tavern bouncer. Keep it positive.',

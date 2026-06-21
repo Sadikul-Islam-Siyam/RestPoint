@@ -7,7 +7,7 @@
         <div class="flex items-center justify-between mb-8">
             <div>
                 <h1 class="text-3xl font-extrabold tracking-tight text-white font-display">Keepers Deck (Game Management)</h1>
-                <p class="mt-2 text-sm text-slate-400">Add, edit, or remove games from the QuestHive database. Creating a game automatically pre-seeds categories.</p>
+                <p class="mt-2 text-sm text-slate-400">Add, edit, or remove games from the RestPoint database. Creating a game automatically pre-seeds categories.</p>
             </div>
             <a href="{{ route('admin.games.create') }}" class="inline-flex items-center rounded-xl bg-amber-500 px-4 py-2.5 text-sm font-semibold text-slate-950 shadow-md hover:bg-amber-400 transition">
                 ➕ Add Game

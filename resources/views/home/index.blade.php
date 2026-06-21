@@ -14,7 +14,7 @@
             <span class="bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent">Gamers' Tavern</span>
         </h1>
         <p class="mx-auto max-w-2xl text-lg sm:text-xl text-slate-400 mb-10 font-light leading-relaxed">
-            QuestHive is a home for raw, authentic, human-only gaming discussions. Get solutions to tough boss fights, write helpful walkthroughs, or talk lore over a cold pint.
+            RestPoint is a home for raw, authentic, human-only gaming discussions. Get solutions to tough boss fights, write helpful walkthroughs, or talk lore over a cold pint.
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">

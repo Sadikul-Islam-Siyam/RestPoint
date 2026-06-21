@@ -7,7 +7,7 @@ use App\Models\Game;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class QuestHivePhase1Test extends TestCase
+class RestPointPhase1Test extends TestCase
 {
     use RefreshDatabase;
 

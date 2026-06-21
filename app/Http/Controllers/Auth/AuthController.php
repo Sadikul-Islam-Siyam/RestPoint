@@ -45,7 +45,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('home')->with('success', 'Welcome to QuestHive, ' . $user->name . '!');
+        return redirect()->route('home')->with('success', 'Welcome to RestPoint, ' . $user->name . '!');
     }
 
     /**

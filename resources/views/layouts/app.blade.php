@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'QuestHive') }} — The Gamers' Tavern</title>
+    <title>{{ config('app.name', 'RestPoint') }} — The Gamers' Tavern</title>
 
     <!-- Google Fonts: Outfit for display, Inter for body -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
                 <div class="flex items-center">
                     <a href="{{ route('home') }}" class="flex items-center space-x-2 text-amber-500 font-extrabold text-2xl tracking-wide font-display hover:text-amber-400 transition duration-300">
                         <span>🍺</span>
-                        <span class="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">QuestHive</span>
+                        <span class="bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">RestPoint</span>
                     </a>
                     <div class="hidden md:ml-10 md:flex md:items-baseline md:space-x-4">
                         <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'bg-slate-900 text-amber-500 border border-slate-800' : 'text-slate-300 hover:bg-slate-900 hover:text-amber-500' }} rounded-lg px-3.5 py-2 text-sm font-medium transition duration-200">Tavern Floor</a>
@@ -110,7 +110,7 @@
     <!-- Footer -->
     <footer class="border-t border-slate-900 bg-slate-950 py-8 text-center text-slate-500 text-sm">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <p class="font-display">&copy; {{ date('Y') }} QuestHive. Human-generated discussions only. No AI allowed on the floor.</p>
+            <p class="font-display">&copy; {{ date('Y') }} RestPoint. Human-generated discussions only. No AI allowed on the floor.</p>
         </div>
     </footer>
 </body>
