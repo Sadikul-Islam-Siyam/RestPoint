@@ -18,8 +18,8 @@ class RestPointPhase1Test extends TestCase
     {
         $response = $this->get('/');
         $response->assertStatus(200);
-        $response->assertSee('Welcome to the');
-        $response->assertSee("Gamers' Tavern", false);
+        $response->assertSee('Where Flames', false);
+        $response->assertSee('Never Die', false);
     }
 
     /**

@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Route;
 
 // Home Dashboard
 Route::get('/', function () {
-    // For now, redirect or render home index
-    return view('home.index');
+    $games = \App\Models\Game::withCount('followers')->take(6)->get();
+    return view('home.index', compact('games'));
 })->name('home');
 
 // Auth routes
